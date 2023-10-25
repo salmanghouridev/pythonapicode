@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "deploy": "vercel"
+    },
+    "dependencies": {
+        "@vercel/python": "latest"
+    }
+}

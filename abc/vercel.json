@@ -1,0 +1,7 @@
+{
+    "routes": [
+        { "src": "/read", "dest": "/api/read.js" },
+        { "src": "/generate", "dest": "/api/generate.js" },
+        { "src": "/download", "dest": "/api/download.js" }
+    ]
+}
