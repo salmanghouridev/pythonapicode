@@ -1,7 +1,13 @@
 {
+    "builds":[{
+        "src":"api/main.py",
+        "use":"@vercel/python"
+    }],
     "routes": [
-        { "src": "/read", "dest": "/api/read.js" },
-        { "src": "/generate", "dest": "/api/generate.js" },
-        { "src": "/download", "dest": "/api/download.js" }
+       {
+        "src":"/(.*)",
+        "dest":"api/main.py"
+
+       }
     ]
 }
