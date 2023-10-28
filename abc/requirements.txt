@@ -1,6 +1,7 @@
-Flask
-py-vollib
-requests
-pandas
-openpyxl
-gunicorn
+Flask==2.0.3
+py-vollib==1.0.5
+requests==2.26.0
+pandas==1.3.3
+openpyxl==3.0.7
+gunicorn==20.1.4
+wfastcgi==3.0.0
