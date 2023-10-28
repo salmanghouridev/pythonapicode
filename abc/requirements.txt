@@ -4,3 +4,4 @@ py-vollib
 requests
 pandas
 openpyxl
+gunicorn==20.1.0
