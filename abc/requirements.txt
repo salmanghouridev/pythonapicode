@@ -1,7 +1,6 @@
 Flask
-numpy
 py-vollib
 requests
 pandas
 openpyxl
-gunicorn==20.1.0
+gunicorn
